@@ -1,10 +1,10 @@
 **Important Notice!**
 If you installed this prior to February 17 2016 you have to uninstall everything, including any APIs created using 
-these resources, before you upgrade. There has been a lot of changes made and they are not backwards compatible!
+these resources, before you upgrade. There has been a lot of changes and they are not backward compatible!
 
 #API Gateway for CloudFormation
 API Gateway for CloudFormation is a set of Custom Resources that allows you to manage your API Gateway setup
-with CloudFormation. It is deployed with CloudFormation and run on AWS Lambda.
+with CloudFormation. It is deployed with CloudFormation and runs on AWS Lambda.
 
 The project is inspired by [AWS Labs API Gateway Swagger Importer](https://github.com/awslabs/aws-apigateway-importer) so you will see a lot of familiar syntax in the setup.
 
@@ -13,7 +13,7 @@ The project is inspired by [AWS Labs API Gateway Swagger Importer](https://githu
 ##Contents
 1. <a href="#a-note-on-terminology-before-we-begin">A note on terminology before we begin</a>
 1. <a href="#installation">Installation</a>
-    1. <a href="#uninstallation">Un-installation</a>
+    1. <a href="#uninstallation"> Remove installation</a>
 1. <a href="#usage">Usage</a>
     1. <a href="#overview">Overview</a>
     1. <a href="#create-an-api">Create an API</a>
@@ -29,7 +29,7 @@ The project is inspired by [AWS Labs API Gateway Swagger Importer](https://githu
 
 ##A note on terminology before we begin
 Throughout this document there are references to *resources* and *API Resources*.
-It is very important to distinguish between the two:
+It is very important to distinguish the difference between the two:
 
 * A *resource* is a CloudFormation term and can refer to any AWS resource.
 * An *API Resource* is a specific type of AWS resource (Custom::ApiResource) which is called "Resource" in API Gateway.
